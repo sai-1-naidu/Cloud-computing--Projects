@@ -7,6 +7,11 @@ class Rectangle:
         yield {"length": self.length}
         yield {"width": self.width}
 rect = Rectangle(10, 5)
-
 for item in rect:
     print(item)
+'''
+Expected Output 
+{'length': 10}
+{'width': 5}
+'''
+
